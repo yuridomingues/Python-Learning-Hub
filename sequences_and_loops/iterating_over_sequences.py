@@ -8,31 +8,31 @@ print('End of the loop')
 name = 'Yuri'
 
 for char in name:
-    print(f'The char is: {char}')
+    print(f'The character is: {char}')
 
 print('End of the loop')
 
-clientes = [
+clients = [
     ('Ana', 'xxx', 'xxx@email.com'), 
     ('Yuri', 'yyy', 'yyy@email.com')
     ]
 
-#for cliente in clientes:
-    #nome = cliente[0]
-    #cpf = cliente[1]
-    #email = cliente[2]
-    #nome, cpf, email = cliente
-    #print(f'Cliente: {nome}\nCPF: {cpf}\nEmail: {email}\n')
+#for client in clients:
+    #name = client[0]
+    #cpf = client[1]
+    #email = client[2]
+    #name, cpf, email = client
+    #print(f'Client: {name}\nCPF: {cpf}\nEmail: {email}\n')
 
 # z = (10, 20)
 # x, y = z
 # x = 10
 # y = 20
 
-# letra1, letra2, letra3 = 'abc'
-# letra1 = 'a'
-# letra2 = 'b'
-# letra3 = 'c'
+# letter1, letter2, letter3 = 'abc'
+# letter1 = 'a'
+# letter2 = 'b'
+# letter3 = 'c'
 
-for nome, cpf, email in clientes:
-    print(f'Cliente: {nome}\nCPF: {cpf}\nEmail: {email}\n')
+for name, cpf, email in clients:
+    print(f'Client: {name}\nCPF: {cpf}\nEmail: {email}\n')
