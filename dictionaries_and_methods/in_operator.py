@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 capitals = {
     'Brasil' : 'Brasilia',
     'France' : 'Paris',
@@ -23,7 +22,6 @@ print(4 in values) # False
 
 text = 'i am studying python'
 print('python' in text) # True
-=======
 # a key and its corresponding value
 capitals = {'Brazil': 'Brasília',
             'France': 'Paris', 
@@ -57,4 +55,3 @@ text = 'im studying python'
 
 if text not in ('1,', '2'):
     print('Invalid option, write 1 or 2')
->>>>>>> 170fc90 (feat: add in operator)

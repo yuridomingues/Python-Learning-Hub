@@ -5,7 +5,6 @@ capitals = {'Brazil': 'Brasília',
 }
 
 print(capitals['Brazil'])
-<<<<<<< HEAD
 # Will show "Brasília"
 
 # Dictionaries are mutable
@@ -35,5 +34,3 @@ d[3.15] = True
 #    print(f'Key: {k}, Value: {v}')
 
 print(d.items())
-=======
->>>>>>> 170fc90 (feat: add in operator)
